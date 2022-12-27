@@ -72,3 +72,67 @@ h1{
     text-align: center;
     background: radial-gradient(#fff, #003487);
 } */
+
+@media only screen and (max-width: 800px) {
+    .small-container{
+        max-width: 800px;
+    }
+    .row{
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+    .col-5{
+        margin-left: 50px;
+        flex-basis: 100%;  
+        min-width: 600px;
+        max-width: 800px;
+    }
+    .filter-container{
+        margin-left: 1px;
+        margin-right: -60px;
+        padding-left: auto;
+        padding-right: auto;
+        margin-top: -400px;
+ 
+    }
+    .filter-container h4{
+        width: 140%;
+        text-align: left;
+    }
+
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .small-container{
+        max-width: 600px;
+    }
+    .row{
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+    .col-5{
+        margin-left: 50px;
+        flex-basis: 100%;  
+        min-width: 600px;
+        max-width: 800px;
+    }
+    .filter-container{
+        margin-left: 1px;
+        margin-right: -60px;
+        padding-left: auto;
+        padding-right: auto;
+        margin-top: -400px;
+ 
+    }
+    .filter-container h4{
+        width: 140%;
+        text-align: left;
+    } 
+}
