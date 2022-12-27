@@ -59,6 +59,14 @@ h1{
     font-family: 'Inter', sans-serif;
     
 }
+.col-5 img{
+    margin-left: 50px;
+    flex-basis: 100%;  
+    /* min-width: 600px; */
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 100px;
+}
 .filter-container{
     max-width: 1080px;
     /* margin: auto; */
@@ -101,6 +109,12 @@ h1{
     .filter-container h4{
         width: 140%;
         text-align: left;
+            margin-top: 300px;
+    }
+    .col-5 img{
+        margin: auto;
+        align-items: center;
+        text-align: center;
     }
 
  
@@ -134,5 +148,11 @@ h1{
     .filter-container h4{
         width: 140%;
         text-align: left;
-    } 
+            margin-top: 300px;
+    }
+    .col-5 img{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
 }
